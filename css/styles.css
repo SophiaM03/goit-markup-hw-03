@@ -17,7 +17,6 @@
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
 }
 .visually-hidden {
   position: absolute;
@@ -123,7 +122,6 @@ body {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  outline: 2px solid tomato;
   padding: 200px 0;
 }
 .hero-title {
