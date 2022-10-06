@@ -18,23 +18,23 @@
 
   <body>
     <!-- шапка -->
-    <header class="page-header container">
-      <nav class="main-nav">
-        <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
-        <ul class="site-nav list">
-          <li class="site-nav-item">
-            <a href="#" class="site-nav-link link">Студія</a>
-          </li>
-          <li class="site-nav-item">
-            <a href="./portfolio.html" class="site-nav-link link">Портфоліо</a>
-          </li>
-          <li class="site-nav-item">
-            <a href="#" class="site-nav-link link">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="info-nav">
-        <ul class="auth-nav list">
+    <header class="page-header">
+      <div class="container main-nav">
+        <nav class="main-nav">
+          <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
+          <ul class="site-nav">
+            <li class="site-nav-item">
+              <a href="#" class="site-nav-link link">Студія</a>
+            </li>
+            <li class="site-nav-item">
+              <a href="./portfolio.html" class="site-nav-link link">Портфоліо</a>
+            </li>
+            <li class="site-nav-item">
+              <a href="#" class="site-nav-link link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="auth-nav">
           <li class="auth-nav-item">
             <a href="mailto:info@devstudio.com" class="auth-nav-link link"> info@devstudio.com</a>
           </li>
@@ -56,7 +56,7 @@
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Переваги</h2>
-          <ul class="advances list">
+          <ul class="advances">
             <li class="advances-item">
               <h3 class="advances-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="advances-text">
@@ -88,33 +88,15 @@
       <section class="section work-section">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="work list">
+          <ul class="work">
             <li class="work-item">
-              <img
-                class="work-img"
-                src="./images/img.jpg"
-                alt="друкує код"
-                width="370"
-                height="294"
-              />
+              <img src="./images/img.jpg" alt="друкує код" width="370" height="294" />
             </li>
             <li class="work-item">
-              <img
-                class="work-img"
-                src="./images/img1.jpg"
-                alt="робота за комп'ютером"
-                width="370"
-                height="294"
-              />
+              <img src="./images/img1.jpg" alt="робота за комп'ютером" width="370" height="294" />
             </li>
             <li class="work-item">
-              <img
-                class="work-img"
-                src="./images/img2.jpg"
-                alt="розробка дизайну"
-                width="370"
-                height="294"
-              />
+              <img src="./images/img2.jpg" alt="розробка дизайну" width="370" height="294" />
             </li>
           </ul>
         </div>
@@ -124,54 +106,44 @@
       <section class="section team-section">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="team list">
+          <ul class="team">
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/igor.jpg"
-                alt="чоловік"
-                width="270"
-                height="260"
-              />
-              <h3 class="team-title">Ігор Дем'яненко</h3>
-              <p class="team-text">Product Designer</p>
+              <img src="./images/igor.jpg" alt="чоловік" width="270" height="260" />
+              <div class="team-info">
+                <h3 class="team-title">Ігор Дем'яненко</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
-              <img class="team-img" src="./images/olga.jpg" alt="жінка" width="270" height="260" />
-              <h3 class="team-title">Ольга Рєпіна</h3>
-              <p class="team-text">Frontend Developer</p>
+              <img src="./images/olga.jpg" alt="жінка" width="270" height="260" />
+              <div class="team-info">
+                <h3 class="team-title">Ольга Рєпіна</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/mykola.jpg"
-                alt="чоловік"
-                width="270"
-                height="260"
-              />
-              <h3 class="team-title">Микола Тарасов</h3>
-              <p class="team-text">Marketing</p>
+              <img src="./images/mykola.jpg" alt="чоловік" width="270" height="260" />
+              <div class="team-info">
+                <h3 class="team-title">Микола Тарасов</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/mykhailo.jpg"
-                alt="чоловік"
-                width="270"
-                height="260"
-              />
-              <h3 class="team-title">Михайло Єрмаков</h3>
-              <p class="team-text">UI Designer</p>
+              <img src="./images/mykhailo.jpg" alt="чоловік" width="270" height="260" />
+              <div class="team-info">
+                <h3 class="team-title">Михайло Єрмаков</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="footer footer-section">
+    <footer class="footer">
       <div class="container">
         <a class="logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
-        <address>
-          <ul class="footer-list-link list">
+        <address class="address">
+          <ul class="footer-list-link">
             <li class="footer-item">
               <a
                 class="link maps"

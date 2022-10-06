@@ -34,25 +34,38 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 body {
   background-color: var(--white-background-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
 
-.list {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
 .link {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 /* header */
 .page-header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #ececec;
 }
@@ -60,10 +73,10 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 /* site-nav */
 .logo {
-  margin-right: 50px;
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: var(--second-font-weight);
@@ -77,6 +90,7 @@ body {
 }
 .site-nav {
   display: flex;
+  margin-left: 93px;
 }
 
 .site-nav-item:not(:last-child) {
@@ -97,10 +111,7 @@ body {
   color: var(--accent-color);
 }
 /* auth-nav */
-.info-nav {
-  display: flex;
-  align-items: center;
-}
+
 .auth-nav {
   display: flex;
 }
@@ -125,8 +136,11 @@ body {
   padding: 200px 0;
 }
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0px;
   margin-bottom: 30px;
+  width: 696px;
   text-transform: uppercase;
   color: var(--white-text-color);
   font-weight: 900;
@@ -205,11 +219,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.work-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 .work-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -243,14 +253,8 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.team-img {
-  margin-bottom: 30px;
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 .team-title {
-  margin-top: 0px;
   margin-bottom: 10px;
   text-align: center;
   color: var(--title-text-color);
@@ -260,34 +264,37 @@ body {
   letter-spacing: 0.03em;
 }
 .team-text {
-  margin-top: 0px;
-  margin-bottom: 30px;
   text-align: center;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-/* footer */
-.footer-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.team-info {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
+/* footer */
 .logo-footer {
   color: var(--white-text-color);
 }
 .footer-item {
   margin-top: 0px;
-  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address {
+  margin-top: 20px;
+}
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-list-link {
-  margin-top: 20px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
@@ -304,12 +311,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.products-img {
-  margin-bottom: 20px;
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 .products-item {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -323,9 +325,6 @@ body {
   margin-bottom: 0px;
 }
 .products-title {
-  margin-left: 24px;
-  margin-right: 0px;
-  margin-top: 0px;
   margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: var(--second-font-weight);
@@ -334,11 +333,13 @@ body {
   letter-spacing: 0.06em;
 }
 .products-text {
-  margin-left: 24px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+.portfolio-card-description {
+  padding: 20px 0px 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
