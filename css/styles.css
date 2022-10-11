@@ -64,9 +64,6 @@ img {
 }
 /* header */
 .page-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-bottom: 1px solid #ececec;
 }
 /* main-nav */
@@ -270,8 +267,8 @@ img {
   letter-spacing: 0.03em;
 }
 .team-info {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* footer */
 .logo-footer {
@@ -338,7 +335,7 @@ img {
   letter-spacing: 0.03em;
 }
 .portfolio-card-description {
-  padding: 20px 0px 20px 24px;
+  padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
